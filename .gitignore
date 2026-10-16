@@ -1,0 +1,17 @@
+# Local Laragon config. Database name, user, and keys stay on this machine.
+wp-config.php
+
+# Database dumps from before the polish. Too big, and they hold the whole site content.
+*.sql
+
+# Tool I downloaded to run wp commands. Not part of the site.
+wp-cli.phar
+
+# WordPress regenerates these.
+wp-content/debug.log
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/elementor/css/
+
+# Leftovers from extracting an archive on Windows.
+**/PaxHeaders/
